@@ -22,6 +22,61 @@
   --transition:    0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+// ─── Light Mode ──────────────────────────────────────────────────────────────
+[data-theme="light"] {
+  --bg-primary:    #f8f8fb;
+  --bg-secondary:  #ffffff;
+  --bg-card:       #ffffff;
+  --bg-card-hover: #f3f3f8;
+  --accent:        #7c3aed;
+  --accent-light:  #6d28d9;
+  --accent-glow:   rgba(124, 58, 237, 0.2);
+  --text-primary:  #111111;
+  --text-secondary:#444444;
+  --text-muted:    #888888;
+  --border:        rgba(0, 0, 0, 0.09);
+  --border-accent: rgba(124, 58, 237, 0.35);
+
+  .card-glass {
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    &:hover { box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15); }
+  }
+
+  .navbar-wrapper.scrolled {
+    background: rgba(248, 248, 251, 0.9);
+    box-shadow: 0 1px 0 var(--border);
+  }
+
+  .hero-name {
+    background: linear-gradient(135deg, #111111 0%, #7c3aed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  // Hero orbs — much lighter so they don't overpower the light background
+  .orb {
+    opacity: 0.08 !important;
+  }
+
+  // Avatar — use light card background with strong border
+  .avatar-ring {
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.2);
+  }
+  .avatar-initials {
+    background: #f3f0ff;
+    color: #7c3aed;
+  }
+
+  // Floating badges — visible on light bg
+  .badge {
+    background: #ffffff;
+    border-color: rgba(124, 58, 237, 0.2);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    color: #111111;
+  }
+}
+
 // ─── Reset & Base ─────────────────────────────────────────────────────────────
 *, *::before, *::after { box-sizing: border-box; }
 

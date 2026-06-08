@@ -1,5 +1,9 @@
 <script setup>
+import { ref } from 'vue'
 import { projects } from '@/data/portfolio.js'
+import ProjectModal from '@/components/ProjectModal.vue'
+
+const activeProject = ref(null)
 </script>
 
 <template>
@@ -18,6 +22,10 @@ import { projects } from '@/data/portfolio.js'
           :key="project.title"
           class="project-card card-glass fade-up"
           :style="{ transitionDelay: `${(i % 2) * 0.1}s` }"
+          @click="activeProject = project"
+          role="button"
+          tabindex="0"
+          @keydown.enter="activeProject = project"
         >
           <!-- Top bar -->
           <div class="pcard-top">
@@ -45,6 +53,8 @@ import { projects } from '@/data/portfolio.js'
       </div>
 
     </div>
+
+    <ProjectModal :project="activeProject" @close="activeProject = null" />
   </section>
 </template>
 
@@ -71,6 +81,9 @@ import { projects } from '@/data/portfolio.js'
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  cursor: pointer;
+
+  &:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 }
 
 .pcard-top {

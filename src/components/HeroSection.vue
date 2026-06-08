@@ -47,6 +47,12 @@ function scrollToContact() {
     <div class="container hero-inner">
       <!-- Left: text -->
       <div class="hero-text">
+        <!-- Currently working badge -->
+        <div class="working-badge fade-in">
+          <span class="working-dot" />
+          Frontend Developer · Mocero Health Solution
+        </div>
+
         <p class="hero-greeting fade-in">👋 Hello, I'm</p>
 
         <h1 class="hero-name fade-up">
@@ -68,6 +74,12 @@ function scrollToContact() {
           <button class="btn-outline" @click="scrollToAbout">
             View My Work
           </button>
+          <a href="/Gangai_Resume.pdf" download class="btn-outline">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Resume
+          </a>
         </div>
 
         <!-- Quick stats -->
@@ -155,6 +167,38 @@ function scrollToContact() {
     text-align: center;
     gap: 3rem;
   }
+}
+
+.working-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.9rem;
+  background: rgba(74, 222, 128, 0.08);
+  border: 1px solid rgba(74, 222, 128, 0.25);
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #4ade80;
+  margin-bottom: 1rem;
+  letter-spacing: 0.01em;
+
+  @media (max-width: 900px) { margin-inline: auto; }
+}
+
+.working-dot {
+  width: 7px;
+  height: 7px;
+  background: #4ade80;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 6px #4ade80;
+  animation: blink-dot 2s ease-in-out infinite;
+}
+
+@keyframes blink-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
 }
 
 .hero-greeting {
@@ -285,15 +329,14 @@ function scrollToContact() {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: var(--bg-secondary);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 4rem;
   font-weight: 900;
   letter-spacing: -0.05em;
-  background: linear-gradient(135deg, var(--bg-secondary) 0%, #1e1e2e 100%);
-  color: var(--accent-light);
+  background: var(--bg-secondary);
+  color: var(--accent);
 
   @media (max-width: 600px) { font-size: 2.8rem; }
 }

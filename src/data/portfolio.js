@@ -102,6 +102,19 @@ export const education = [
   },
 ]
 
+// ─── Proficiency ─────────────────────────────────────────────────────────────
+export const proficiency = [
+  { name: 'Vue.js',       level: 90 },
+  { name: 'TypeScript',   level: 82 },
+  { name: 'JavaScript',   level: 85 },
+  { name: 'SCSS',         level: 88 },
+  { name: 'HTML5 / CSS3', level: 92 },
+  { name: 'PrimeVue',     level: 84 },
+  { name: 'Bootstrap',    level: 80 },
+  { name: 'Nuxt.js',      level: 70 },
+  { name: 'Git',          level: 78 },
+]
+
 // ─── Services ─────────────────────────────────────────────────────────────────
 export const services = [
   {
