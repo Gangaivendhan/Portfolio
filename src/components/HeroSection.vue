@@ -85,7 +85,7 @@ function scrollToContact() {
         <!-- Quick stats -->
         <div class="hero-stats fade-up">
           <div class="stat">
-            <span class="stat-num">3.3+</span>
+            <span class="stat-num">3.6+</span>
             <span class="stat-label">Years Experience</span>
           </div>
           <div class="stat-divider" />

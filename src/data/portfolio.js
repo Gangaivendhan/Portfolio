@@ -9,7 +9,7 @@ export const personal = {
   location: 'India',
   linkedin: 'https://www.linkedin.com/in/gangai-vendhan-63b350222',
   github: 'https://github.com/Gangaivendhan',
-  bio: "Frontend Developer with 3.3 years of experience in Vue.js, TypeScript, and SCSS. Skilled in building responsive, high-performance web apps and collaborating with cross-functional teams to deliver scalable solutions.",
+  bio: "Frontend Developer with 3.6 years of experience in Vue.js, TypeScript, and SCSS. Skilled in building responsive, high-performance web apps and collaborating with cross-functional teams to deliver scalable solutions.",
 }
 
 // ─── Skills ───────────────────────────────────────────────────────────────────

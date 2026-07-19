@@ -17,7 +17,7 @@ import { personal, services } from '@/data/portfolio.js'
         <div class="about-text fade-up">
           <p class="about-intro">
             Hi Folk's 👋 I'm <strong class="accent-text">Gangaivendhan Ravi</strong>, a Frontend Developer
-            with <strong class="accent-text">3.3 years of experience</strong> in Vue.js, TypeScript, and SCSS.
+            with <strong class="accent-text">3.6 years of experience</strong> in Vue.js, TypeScript, and SCSS.
           </p>
           <p class="about-body muted-text">
             Skilled in building responsive, high-performance web applications and collaborating with cross-functional
