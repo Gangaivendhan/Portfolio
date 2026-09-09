@@ -2,39 +2,40 @@
 export const personal = {
   name: 'Gangaivendhan Ravi',
   shortName: 'Gangai',
-  title: 'Frontend Developer',
+  title: 'Software Developer',
   tagline: 'Building responsive, high-performance web applications',
   email: 'gangaivendhangangai18@gmail.com',
   phone: '+91 93603 71809',
-  location: 'India',
+  location: 'Tamil Nadu, India',
   linkedin: 'https://www.linkedin.com/in/gangai-vendhan-63b350222',
   github: 'https://github.com/Gangaivendhan',
-  bio: "Frontend Developer with 3.6 years of experience in Vue.js, TypeScript, and SCSS. Skilled in building responsive, high-performance web apps and collaborating with cross-functional teams to deliver scalable solutions.",
+  bio: "Software Developer with 3.8 years of experience in Vue.js, TypeScript, and SCSS, with hands-on exposure to .NET Core and SQL for backend integration. Skilled in building responsive, high-performance web applications and collaborating with cross-functional teams to deliver scalable, user-focused solutions.",
 }
 
 // ─── Skills ───────────────────────────────────────────────────────────────────
 export const skills = {
   'Web Technologies': ['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'TypeScript'],
-  'Frameworks & Libraries': ['Vue.js', 'Nuxt.js', 'PrimeVue', 'Bootstrap', 'BootstrapVue'],
+  'Frameworks & Libraries': ['Vue.js', 'Nuxt.js', 'Bootstrap', 'PrimeVue', 'BootstrapVue'],
+  'Backend & APIs': ['.NET Core', 'RESTful API Integration'],
+  'Database': ['MS SQL'],
   'Development Tools': ['Git', 'Bitbucket', 'Azure DevOps', 'JIRA', 'SourceTree', 'Visual Studio Code'],
-  'Database': ['MsSQL'],
-  'Soft Skills': ['Problem-solving', 'Team Collaboration', 'Agile Development', 'Performance Optimization'],
+  'AI Tools': ['GitHub Copilot', 'Claude Code'],
+  'Soft Skills': ['Problem-Solving', 'Team Collaboration', 'Agile Development', 'Performance Optimization'],
 }
 
 // ─── Experience ───────────────────────────────────────────────────────────────
 export const experience = [
   {
-    role: 'Frontend Developer',
+    role: 'Software Developer',
     company: 'Mocero Health Solution',
     period: 'February 2023 – Present',
-    location: 'India',
+    location: 'Tamil Nadu, India',
     points: [
-      'Developed and maintained responsive web applications using Vue.js, HTML5, CSS3, SCSS, and Bootstrap to deliver seamless user experiences.',
-      'Collaborated with design, backend, and QA teams to ensure smooth UI/UX integration and functionality across the platform.',
-      'Implemented API integrations to streamline data flow and improve application performance.',
-      'Optimised website performance, reducing load times and enhancing user engagement.',
-      'Contributed to delivering scalable solutions that aligned with business objectives and met user needs.',
-      'Basic knowledge in MsSQL.',
+      'Developed and maintained responsive web applications using Vue.js, TypeScript, SCSS, and Bootstrap, supporting 4+ internal healthcare modules used daily by clinical and admin staff.',
+      'Collaborated with design, backend, and QA teams across the full development lifecycle to ensure smooth UI/UX integration, reducing post-release bug reports significantly.',
+      'Implemented RESTful API integrations, including services built on .NET Core, to streamline data flow between frontend and backend services, improving data load efficiency across key modules.',
+      'Optimized application performance through lazy loading, code splitting, and component refactoring, reducing initial page load time by approximately 30%.',
+      'Contributed to delivering 4 production-ready modules — Inventory, CRM, Billing, and User Management — aligned with healthcare business requirements.',
     ],
   },
 ]
@@ -43,50 +44,50 @@ export const experience = [
 export const projects = [
   {
     title: 'Inventory Management',
-    description: 'A stock management solution to streamline procurement workflows and simplify inventory tracking for healthcare staff.',
-    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS'],
+    description: 'A stock management module to streamline procurement workflows, purchase orders, and inventory tracking for healthcare operations.',
+    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS', '.NET Core'],
     github: 'https://github.com/Gangaivendhan',
     live: '#',
     points: [
-      'Designed and implemented a stock management solution to streamline procurement workflows and simplify inventory tracking.',
-      'Built dynamic, data-driven forms that improved accuracy in stock requests, purchase orders, and returns.',
-      'Enhanced usability and responsiveness, making day-to-day inventory handling more efficient for staff.',
+      'Designed and implemented a stock management module to streamline procurement workflows, purchase orders, and inventory tracking for healthcare operations.',
+      'Built dynamic, data-driven forms with real-time validation that improved accuracy in stock requests and reduced manual entry errors.',
+      'Enhanced UI responsiveness across devices, making day-to-day inventory handling more efficient for non-technical medical staff.',
     ],
   },
   {
     title: 'Customer Relationship Management (CRM) System',
-    description: 'A CRM platform with dynamic data-driven forms to manage customer workflows and improve operational accuracy.',
-    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS'],
+    description: 'A CRM module that centralizes patient and client data, improving visibility and coordination across departments.',
+    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS', '.NET Core'],
     github: 'https://github.com/Gangaivendhan',
     live: '#',
     points: [
-      'Designed and implemented a CRM solution to streamline customer management workflows.',
-      'Built dynamic, data-driven forms that improved accuracy in data entry and reporting.',
-      'Enhanced usability and responsiveness to support day-to-day operations.',
+      'Developed a CRM module to centralize patient and client data, improving visibility and coordination across departments.',
+      'Built dynamic data-entry forms and filtering views that enabled staff to manage customer interactions, follow-ups, and status tracking efficiently.',
+      'Integrated the CRM module with existing .NET Core backend APIs to ensure real-time data sync, reducing duplicate records and improving overall data accuracy.',
     ],
   },
   {
-    title: 'Billing System',
-    description: 'A hospital billing solution for invoice generation, insurance claims, discounts, and financial reporting.',
-    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS'],
+    title: 'Billing',
+    description: 'A hospital billing module that automates invoice generation and streamlines payment collection workflows for clinical operations.',
+    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS', '.NET Core'],
     github: 'https://github.com/Gangaivendhan',
     live: '#',
     points: [
-      'Built a hospital billing solution to simplify invoice generation and streamline payment workflows.',
-      'Added features for insurance claims, discounts, and financial reporting to support accurate billing operations.',
-      'Optimised the billing interface for faster processing and better staff productivity.',
+      'Built a hospital billing module to automate invoice generation and streamline payment collection workflows for clinical operations.',
+      'Implemented features for insurance claims processing, discount management, and financial reporting to support accurate and auditable billing.',
+      'Optimized billing interface performance and layout for faster task completion, reducing processing time for billing staff.',
     ],
   },
   {
-    title: 'User Management System',
-    description: 'A centralised user access and role management system for secure onboarding, permissions, and account administration.',
-    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS'],
+    title: 'User Management',
+    description: 'A centralized role-based access control (RBAC) system for secure user onboarding, permission management, and account administration.',
+    tags: ['Vue.js', 'PrimeVue', 'BootstrapVue', 'TypeScript', 'SCSS', '.NET Core'],
     github: 'https://github.com/Gangaivendhan',
     live: '#',
     points: [
-      'Developed a centralised user access and role management system for secure and organised onboarding.',
-      'Implemented role-based permissions, account management, and password recovery workflows.',
-      'Created responsive interfaces that improved usability and simplified administrator tasks.',
+      'Developed a centralized role-based access control (RBAC) system for secure user onboarding, permission management, and account administration.',
+      'Implemented role assignment, account management, and password recovery workflows with validation to ensure data security.',
+      'Designed responsive admin interfaces that simplified user management tasks and reduced onboarding time for new staff.',
     ],
   },
 ]
@@ -96,7 +97,7 @@ export const education = [
   {
     degree: 'Bachelor in Actuarial Science',
     field: 'Actuarial Science',
-    institution: 'Bishop Heber College',
+    institution: 'Bishop Heber College, Tamil Nadu, India',
     period: '2019 – 2022',
     grade: '',
   },
@@ -112,6 +113,8 @@ export const proficiency = [
   { name: 'PrimeVue',     level: 84 },
   { name: 'Bootstrap',    level: 80 },
   { name: 'Nuxt.js',      level: 70 },
+  { name: '.NET Core',    level: 65 },
+  { name: 'MS SQL',       level: 65 },
   { name: 'Git',          level: 78 },
 ]
 
@@ -126,6 +129,11 @@ export const services = [
     icon: 'Code',
     title: 'Vue.js Development',
     description: 'Component-driven UI development with Vue.js, PrimeVue, and BootstrapVue for scalable frontend architectures.',
+  },
+  {
+    icon: 'Server',
+    title: 'API Integration',
+    description: 'Integrating RESTful services — including .NET Core backend APIs — for real-time, reliable data flow across application modules.',
   },
   {
     icon: 'Layers',
