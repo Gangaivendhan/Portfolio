@@ -74,7 +74,7 @@ function scrollToContact() {
           <button class="btn-outline" @click="scrollToAbout">
             View My Work
           </button>
-          <a href="/Gangai_Resume.pdf" download class="btn-outline">
+          <a href="/Gangaivendhan_Ravi_Resume.pdf" download="Gangaivendhan_Ravi_Resume.pdf" class="btn-outline">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
               <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
             </svg>
