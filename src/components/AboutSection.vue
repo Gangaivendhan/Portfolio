@@ -16,8 +16,9 @@ import { personal, services } from '@/data/portfolio.js'
         <!-- Text block -->
         <div class="about-text fade-up">
           <p class="about-intro">
-            Hi Folk's 👋 I'm <strong class="accent-text">Gangaivendhan Ravi</strong>, a Frontend Developer
-            with <strong class="accent-text">3.6 years of experience</strong> in Vue.js, TypeScript, and SCSS.
+            Hi Folk's 👋 I'm <strong class="accent-text">Gangaivendhan Ravi</strong>, a Software Developer
+            with <strong class="accent-text">3.8 years of experience</strong> in Vue.js, TypeScript, and SCSS,
+            with hands-on exposure to <strong class="accent-text">.NET Core</strong> and SQL for backend integration.
           </p>
           <p class="about-body muted-text">
             Skilled in building responsive, high-performance web applications and collaborating with cross-functional
@@ -79,6 +80,8 @@ import { personal, services } from '@/data/portfolio.js'
             <svg v-if="service.icon === 'Monitor'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
             <!-- Code -->
             <svg v-else-if="service.icon === 'Code'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <!-- Server -->
+            <svg v-else-if="service.icon === 'Server'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="7" rx="2"/><rect x="2" y="14" width="20" height="7" rx="2"/><line x1="6" y1="6.5" x2="6.01" y2="6.5"/><line x1="6" y1="17.5" x2="6.01" y2="17.5"/></svg>
             <!-- Layers -->
             <svg v-else-if="service.icon === 'Layers'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
             <!-- Zap -->

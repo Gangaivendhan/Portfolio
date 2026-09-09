@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { personal } from '@/data/portfolio.js'
 
-const roles = ['Frontend Developer', 'Vue.js Developer', 'TypeScript Developer', 'UI/UX Implementer']
+const roles = ['Software Developer', 'Vue.js Developer', 'TypeScript Developer', '.NET Core API Integrator']
 const currentRole = ref('')
 const roleIndex   = ref(0)
 const charIndex   = ref(0)
@@ -50,7 +50,7 @@ function scrollToContact() {
         <!-- Currently working badge -->
         <div class="working-badge fade-in">
           <span class="working-dot" />
-          Frontend Developer · Mocero Health Solution
+          Software Developer · Mocero Health Solution
         </div>
 
         <p class="hero-greeting fade-in">👋 Hello, I'm</p>
@@ -85,7 +85,7 @@ function scrollToContact() {
         <!-- Quick stats -->
         <div class="hero-stats fade-up">
           <div class="stat">
-            <span class="stat-num">3.6+</span>
+            <span class="stat-num">3.8+</span>
             <span class="stat-label">Years Experience</span>
           </div>
           <div class="stat-divider" />
